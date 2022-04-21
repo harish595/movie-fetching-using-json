@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: url("./assests/bgimg.png");
+  background-attachment: fixed;
+}
+#main {
+  width: 100%;
+  height: 100vh;
+  background-image: fixed;
+}
+#main article {
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+}
+.input-block {
+  /* width: 200px;
+    height: 100px; */
+  position: relative;
+  left: 460px;
+  top: 40px;
+}
+input {
+  color: rgb(128, 14, 14);
+  width: 250px;
+  height: 40px;
+  margin-top: 6px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+input:hover {
+  border: 3px solid rgb(216, 123, 123);
+  transition: all 0.3s;
+  color: crimson;
+  box-shadow: 0px 0px 6px 8px crimson;
+}
+.input-block label {
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(247, 237, 237);
+  margin-left: 66px;
+}
+
+.input-block .btn1 {
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-left: 80px;
+  margin-top: 8px;
+  color: #fff;
+}
+.input-block .btn1:hover {
+  border: 3px solid rgb(216, 123, 123);
+  color: crimson;
+  transition: all 0.4s;
+  box-shadow: 0px 0px 4px 4px crimson;
+}
+
+#StoreMovies {
+  height: 250px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  margin-top: 20px;
+}
+
+#StoreMovies div:hover {
+  transform: scale(0.9);
+}
+
+#StoreMovies div {
+  margin-top: 60px;
+   transition: all ease-in 0.6s;
+}
+#StoreMovies div img {
+  width: 276px;
+  height: 250px;
+}
+
+#StoreMovies div h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+#StoreMovies div h2 {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.input-block i {
+  padding: 5px;
+  border: none;
+  position: absolute;
+  top: 37px;
+  left: 220px;
+color: #fff;
+}
+ 
